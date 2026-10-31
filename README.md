@@ -1,7 +1,7 @@
 # portfolio-performance-broker-taxonomy
 
 
-#### English [Česká verze](#Česká-verze)
+#### English [Česká verze](#Česká-verze-english)
 # Automatically Recalculate Security Weights in a Portfolio Performance Taxonomy
 
 ## What is this script for?
@@ -96,7 +96,7 @@ I cannot guarantee that it will work in every environment or with every Portfoli
 Always keep a backup of your portfolio file before using the script.
 
 -------------
-#### Česká verze [English](#english)
+#### Česká verze [English](#english-česká-verze)
 # Automatický přepočet vah cenných papírů v taxonomii Portfolio Performance
 
 Python skript pro automatický přepočet vah cenných papírů v taxonomii podle jejich aktuální hodnoty u jednotlivých brokerů v programu [Portfolio Performance](https://www.portfolio-performance.info/).
