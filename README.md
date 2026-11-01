@@ -10,7 +10,7 @@ A Python script for automatically recalculating security weights in a [Portfolio
 
 Portfolio Performance does not automatically recalculate security weights in a taxonomy based on how a security is distributed across different brokers.
 
-This Python script automatically recalculates the security weights in a Portfolio Performance taxonomy named `Podle brokera`.
+This Python script automatically recalculates the security weights in a Portfolio Performance taxonomy named `Podle brokera` (By Broker).
 
 It is intended for portfolios where the same security is held at multiple brokers. Instead of manually adjusting the weights in the taxonomy, the script calculates them from the actual quantities held at each broker.
 
@@ -54,7 +54,7 @@ Example:
 PORTFOLIO_FILE = r"C:\Users\Jane\Investments.portfolio"
 ```
 
-The script supports both the standard `.portfolio` archive and a standalone XML file.
+The script supports both the standard `.zip` archive and a standalone XML file.
 
 **`TAXONOMY_NAME`**
 
@@ -140,7 +140,7 @@ The script stops without replacing the original file if it encounters unsupporte
 
 ### Why was this script created?
 
-I wanted to maintain a `Podle brokera` taxonomy in Portfolio Performance without having to manually recalculate security weights whenever I bought, sold or transferred securities between brokers.
+I wanted to maintain a `Podle brokera` (By Broker) taxonomy in Portfolio Performance without having to manually recalculate security weights whenever I bought, sold or transferred securities between brokers.
 
 The script automates this process using the transaction history and the actual number of shares held at each broker.
 
@@ -204,7 +204,7 @@ Příklad:
 PORTFOLIO_FILE = r"C:\Users\Jane\Investments.portfolio"
 ```
 
-Skript podporuje standardní archiv `.portfolio` i samostatný XML soubor.
+Skript podporuje standardní archiv `.zip` i samostatný XML soubor.
 
 **`TAXONOMY_NAME`**
 
